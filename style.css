@@ -56,3 +56,9 @@ ul{
     width: 90%;
     margin: auto;
 }
+.sectionOne{
+    
+    width: 100%; 
+    background-image: url("assets/bg.png");    
+  
+}
