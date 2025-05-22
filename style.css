@@ -98,7 +98,13 @@ ul{
     border: 1px solid #0096a793;
     box-shadow: 2px 2px 4px 2px #0096a793;
     width:  300px;
-     
+      
+
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
     
     
  }
