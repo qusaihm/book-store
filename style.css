@@ -82,3 +82,13 @@ ul{
     color:#0097a7 ;
 
 }
+.buttnColor {
+    background-color:#0097a7; 
+    color: #fff;                
+    border: none;              
+    padding: 10px 20px;        
+    cursor: pointer;           
+    font-size: 16px;          
+    border-radius: 5px;        
+   
+}
