@@ -62,3 +62,23 @@ ul{
     background-image: url("assets/bg.png");    
   
 }
+.sectionOne{
+    
+    width: 100%;
+    height: 92vh; 
+    background-image: url("assets/bg.png"); 
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.marginSec1{
+    margin-top: 4%;
+
+}
+.homeInfo{
+    width: 50%;
+}
+.homeInfo .taitleColor{
+    color:#0097a7 ;
+
+}
