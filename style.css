@@ -197,3 +197,28 @@ ul{
         text-decoration: line-through;
     
     }
+
+    .slideArrivals {
+        width: 200px;
+        border: 1px solid #9da3a3;
+        padding: 10px;
+        text-align: center;
+         
+         
+    }
+    .slideArrivals img {
+        width: 100%;
+        display: block; 
+    }
+    .star-container {
+        padding: 5px 0;
+        display: flex;
+        justify-content: center;
+        gap: 2%;  
+        margin-bottom: 3%; 
+    }
+    
+    .star-container .icon {
+        width: 10%;    
+          
+    }
