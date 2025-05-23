@@ -184,3 +184,16 @@ ul{
         border: 3px solid #0096a7bc ;
         padding: 2%  5% 2%;
     }
+
+    .newPraice{
+        font-weight: 800;
+        font-size: 18px;
+        position: relative;
+        top: -5px;
+        
+    
+    }
+    .oldPraice{
+        text-decoration: line-through;
+    
+    }
