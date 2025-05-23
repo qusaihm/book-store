@@ -124,3 +124,13 @@ ul{
     padding: 20px;
 
  }
+ .sectionTreeAbout{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    margin: 3% 0 0 4%;
+}
+.sectionTreeAbout img{
+    width: 45%;
+   
+}
