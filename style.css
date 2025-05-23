@@ -185,9 +185,16 @@ ul{
         color: #0096a7bc;
     }
     .sectionFourFeaturedBooks button{
-        background-color: #fff;
-        border: 3px solid #0096a7bc ;
-        padding: 2%  5% 2%;
+        border: 3px solid #0096a7;  
+        padding: 8px 20px;  
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .sectionFourFeaturedBooks button:hover {  
+        background-color: #0096a7;
+        color: #fff;
     }
 
     .newPraice{
@@ -202,6 +209,9 @@ ul{
         text-decoration: line-through;
     
     }
+
+
+
 
     .slideArrivals {
         width: 200px;
@@ -255,4 +265,9 @@ ul{
         flex-wrap: wrap;
         gap: 50px;
          
+    }
+
+    .slideArrivals button:hover {  
+        background-color: #0096a7;
+        color: #fff;
     }
