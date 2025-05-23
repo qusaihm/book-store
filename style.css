@@ -140,9 +140,14 @@ ul{
 .sectionFourFeaturedBooks{
     text-align: center;
     padding: 20px;
+    
    
    }
+   .sectionFourFeaturedBooks h1{
+    margin: 7% 0;
+   }
    .slider-container {
+    
     width: 100%;
     max-width: 1330px; 
     overflow-x: auto; 
@@ -236,4 +241,18 @@ ul{
         font-size: 16px;
         cursor: pointer;
         font-weight: bold;
+    }
+    .sectionFiveArrivals {
+        text-align: center;
+        margin: 7% 0;
+         
+          
+    }
+    
+    .slidesArrivals {
+        margin: 4% 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+         
     }
