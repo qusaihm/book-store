@@ -137,11 +137,25 @@ ul{
 }
 
 
+.sectionFourFeaturedBooks{
+    text-align: center;
+    padding: 20px;
+   
+   }
+   .slider-container {
+    width: 100%;
+    max-width: 1330px; 
+    overflow-x: auto; 
+    scroll-snap-type: x mandatory; 
+    -webkit-overflow-scrolling: touch; 
+    margin: auto;
+}
 
 .slide {
-    width: 200px;
- 
     
+    flex: 0 0 200px;
+ 
+    scroll-snap-align: start;
     border: 1px solid #9da3a3;
     padding: 10px;
     text-align: center;
@@ -154,4 +168,10 @@ ul{
         
         margin-bottom: 10px;
     }
+    .slider {
+        display: flex;
+        gap: 20px; 
+     
+    } 
+
 
