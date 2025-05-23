@@ -136,3 +136,22 @@ ul{
    
 }
 
+
+
+.slide {
+    width: 200px;
+ 
+    
+    border: 1px solid #9da3a3;
+    padding: 10px;
+    text-align: center;
+}
+
+.slide img {
+        width: 130px;
+        height: 180px;
+        
+        
+        margin-bottom: 10px;
+    }
+
