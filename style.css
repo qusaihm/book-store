@@ -165,7 +165,28 @@ ul{
     padding: 10px;
     text-align: center;
 }
+.sectionFourFeaturedBooks .slider-container {
+    scrollbar-width: thin;
+    scrollbar-color: #0097a7 #e0f7fa;
+  }
 
+  .sectionFourFeaturedBooks .slider-container::-webkit-scrollbar {
+    height: 8px;  
+  }
+  
+  .sectionFourFeaturedBooks .slider-container::-webkit-scrollbar-track {
+    background: #e0f7fa;  
+    border-radius: 10px;
+  }
+  
+  .sectionFourFeaturedBooks .slider-container::-webkit-scrollbar-thumb {
+    background-color: #0097a7;  
+    border-radius: 10px;
+  }
+  
+  .sectionFourFeaturedBooks .slider-container::-webkit-scrollbar-thumb:hover {
+    background-color: #007c8a;  
+  }
 .slide img {
         width: 130px;
         height: 180px;
