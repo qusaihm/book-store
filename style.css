@@ -292,3 +292,9 @@ ul{
         background-color: #0096a7;
         color: #fff;
     }
+
+    
+    .slide:hover,.slideArrivals:hover,.cardHome:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
