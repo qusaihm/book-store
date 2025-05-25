@@ -360,3 +360,8 @@ ul{
     font-size: 0.9rem;
     color: #666;
 }
+
+.post-category {
+    color: #0097a7;
+    font-weight : 700;
+}
