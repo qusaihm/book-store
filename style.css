@@ -456,3 +456,15 @@ ul{
   border-radius: 20px;
   cursor: pointer;
 }
+
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.footer-bottom .highlight {
+  color: #0097a7
+}
+
