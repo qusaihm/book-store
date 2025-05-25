@@ -378,4 +378,10 @@ ul{
     margin-bottom: 1.5rem;
 }
 
+.site-footer {
+  background-color: #eeeeee;
+  width: 100%;
+  padding: 40px 0 20px;
+  font-family: Arial, sans-serif;
+}
 
