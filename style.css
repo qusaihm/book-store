@@ -430,4 +430,10 @@ ul{
   font-size: 14px;
   text-decoration: none;
 }
+.social-icons i {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #000;
+  cursor: pointer;
+}
 
