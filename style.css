@@ -407,3 +407,10 @@ ul{
   height: 60px;
   margin-bottom: 15px;
 }
+
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
