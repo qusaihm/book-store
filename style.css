@@ -423,3 +423,11 @@ ul{
   margin-bottom: 6px;
 }
 
+
+.footer-column a,
+.footer-column p {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+}
+
