@@ -414,3 +414,12 @@ ul{
   font-weight: bold;
 }
 
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 6px;
+}
+
