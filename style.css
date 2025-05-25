@@ -288,6 +288,11 @@ ul{
          
     }
 
+    .blog-section {
+    padding: 4rem 0;
+}
+
+
     .slideArrivals button:hover {  
         background-color: #0096a7;
         color: #fff;
@@ -298,3 +303,5 @@ ul{
   transform: scale(1.05);
   transition: transform 0.3s ease;
 }
+
+
