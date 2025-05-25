@@ -365,3 +365,9 @@ ul{
     color: #0097a7;
     font-weight : 700;
 }
+
+.post-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
