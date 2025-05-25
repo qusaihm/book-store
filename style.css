@@ -448,3 +448,11 @@ ul{
   max-width: 200px;
 }
 
+.footer-column button {
+  padding: 8px 20px;
+  background-color:#0097a7;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
