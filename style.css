@@ -430,10 +430,21 @@ ul{
   font-size: 14px;
   text-decoration: none;
 }
+
 .social-icons i {
   font-size: 18px;
   margin-right: 10px;
   color: #000;
   cursor: pointer;
+}
+
+.footer-column input[type="email"] {
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  background-color: #ccc;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 200px;
 }
 
