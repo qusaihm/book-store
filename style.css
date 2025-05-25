@@ -348,3 +348,15 @@ ul{
 .blog-post:hover .post-thumbnail img {
     transform: scale(1.05);
 }
+
+.post-content {
+    padding: 1.5rem;
+}
+
+.post-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
