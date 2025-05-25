@@ -312,3 +312,10 @@ ul{
     margin-bottom: 3rem;
     color: #333;
 }
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 0 1.5rem;
+}
