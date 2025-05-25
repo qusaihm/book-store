@@ -343,3 +343,8 @@ ul{
     object-fit: cover;
     transition: transform 0.3s ease;
 }
+
+
+.blog-post:hover .post-thumbnail img {
+    transform: scale(1.05);
+}
