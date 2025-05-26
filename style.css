@@ -468,6 +468,10 @@ ul{
   color: #0097a7
 }
 
+.reviews-section {
+  padding: 40px 30px;
+  text-align: center;
+}
 
 @media (max-width: 768px) {
   .footer-container {
