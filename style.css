@@ -45,12 +45,18 @@ ul{
     font-weight: 800;
     
 }
+ 
+
 .bord{
     
     display: flex;
     justify-content: space-evenly;
     width: 70%;
   
+}
+.bord li a:hover {
+    color:  #0097a7 ;  
+    transition: color 0.3s ease;  
 }
 .container{
     width: 90%;
@@ -480,8 +486,10 @@ ul{
 
 .reviews-container {
   display: flex;
+ 
   
   justify-content: center;
+ 
   flex-wrap: wrap;
        gap: 20px;  
 }
@@ -492,9 +500,10 @@ ul{
   position: relative;
   background: #fff;
   border: 2px solid #b4d5dc;
-  width: 22%;
-  min-width: 240px;
-  width: 240px;
+ 
+  width: 250px;
+  min-width: 260px;
+ 
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -588,6 +597,21 @@ ul{
   background-color: #0097a7;
   border-radius: 2px;
 }
+
+
+
+
+.foterBlog{
+  display: flex;
+  justify-content: space-between;
+
+}
+.iconBlog{
+  width: 20px;
+  padding: 10px;
+  color:#0097a7 ;
+}
+
 
  
 @media (max-width: 768px) {
