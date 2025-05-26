@@ -478,6 +478,13 @@ ul{
   margin-bottom: 40px;
 }
 
+.reviews-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+       gap: 20px;  
+}
+
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column;
