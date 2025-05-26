@@ -493,7 +493,8 @@ ul{
   background: #fff;
   border: 2px solid #b4d5dc;
   width: 22%;
-  min-width: 260px;
+  min-width: 240px;
+  width: 240px;
   padding: 20px;
   display: flex;
   flex-direction: column;
