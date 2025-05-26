@@ -480,16 +480,21 @@ ul{
 
 .reviews-container {
   display: flex;
-  justify-content: space-between;
+  
+  justify-content: center;
   flex-wrap: wrap;
        gap: 20px;  
 }
+
+
+
 .review-card {
   position: relative;
   background: #fff;
   border: 2px solid #b4d5dc;
   width: 22%;
-  min-width: 260px;
+  min-width: 240px;
+  width: 240px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -550,6 +555,7 @@ ul{
   border-radius: 8px;
   margin-top: 150px;
   margin-right: 800px;
+  cursor: pointer;
 }
 @media (max-width: 768px) {
   .footer-container {
