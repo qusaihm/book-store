@@ -36,7 +36,11 @@
            </div>
               
                
-   
+           <div class="burger-menu" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            </div>
         </div>
        </nav>
 
@@ -770,6 +774,12 @@ Voluptas?
 </footer>
    
 
-    
+    <script>
+  function toggleMenu() {
+    const menu = document.querySelector('.mainList ul');
+    menu.classList.toggle('show');
+  }
+</script>
+
 </body>
 </html>

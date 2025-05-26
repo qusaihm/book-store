@@ -570,3 +570,57 @@ ul{
     max-width: 100%;
   }
 }
+
+
+
+ 
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+  padding: 10px;
+}
+
+.burger-menu .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #0097a7;
+  border-radius: 2px;
+}
+
+ 
+@media (max-width: 768px) {
+  .mainList ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .mainList ul.show {
+    display: flex;
+  }
+
+  .burger-menu {
+    display: flex;
+  }
+  .iconNavbar{
+    width: 100%;
+   display: flex;
+   padding: 20px;
+   gap: 15%;
+  
+   
+  }
+
+  .mainList {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
