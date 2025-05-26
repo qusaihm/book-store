@@ -14,15 +14,20 @@ a{
 ul{
     list-style: none;
 }
-
-.navbar{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-     
-    box-shadow: 2px 4px 6px #0096a793;
-
+ 
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;  
+  box-shadow: 2px 4px 6px #0096a793;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
+
 .logo{
     padding: 5px;
 }
