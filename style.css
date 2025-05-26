@@ -555,6 +555,7 @@ ul{
   border-radius: 8px;
   margin-top: 150px;
   margin-right: 800px;
+  cursor: pointer;
 }
 @media (max-width: 768px) {
   .footer-container {
