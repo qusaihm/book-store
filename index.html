@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <body>
     <nav class="row navbar">
@@ -42,7 +44,7 @@
         <div class="sectionOne  ">
             <div class="marginSec1 row">
                <div class="homeInfo">
-                   <h1>WELCOME TO</h1>
+                   <h1 id="titleHome">WELCOME TO</h1>
                    <h1 class="taitleColor">BOOK STORE</h1>
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestias atque
                        laborum non fuga ex deserunt. Exercitationem velit ducimus praesentium, obcaecati hic
@@ -105,7 +107,7 @@
          
 
             <div class="homeInfo">
-                <h1>About Us</h1>
+                <h1 id="aboutTitle">About Us</h1>
                
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae cumque atque dolor
                     corporis architecto. Voluptate expedita molestias maxime officia natus consectetur dolor
@@ -119,7 +121,7 @@
   </div>
 
   <div class="sectionFourFeaturedBooks"> 
-        <h1>Featured Books</h1>
+        <h1 id="featuredTitle">Featured Books</h1>
 
     <div class="slider-container">
          <div class="slider">
@@ -315,7 +317,7 @@
 </div>
 
 <div class="sectionFiveArrivals">
-    <h1>Arrivals New</h1>
+    <h1 id="sectionFiveArrivals">Arrivals New</h1>
 
          <div class="slidesArrivals">
             <div class="slideArrivals">
@@ -598,7 +600,7 @@
     </div>
     
        <section class="reviews-section">
-        <h2>Reviews</h2>
+        <h2 id="reviewstitle">Reviews</h2>
         <div class="reviews-container">
              <div class="review-card">
                 <div class="quote-bg">❞</div>
@@ -618,5 +620,126 @@
              </div>
         </div>
        </section>
+       
+        
+
+   <section class="blog-section">
+    <h2 class="section-title" id="blogtitle">Our Blog</h2>
+    
+    <div class="blog-grid">
+        <article class="blog-post">
+            <div class="post-thumbnail">
+                <img src="assets/blog_1.jpg" alt="Blog post thumbnail">
+            </div>
+            <div class="post-content">
+                <div class="post-meta">
+                    <span class="post-category">Bloger</span>
+                  
+                </div>
+                <p class="post-excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Ipsam, quos quis quasi ut impedit reiciendis voluptatem
+rem esse ratione omnis, laudantium earum. Aperiam
+nesciunt dolore aliquam repellat consequatur amet
+ducimus.</p>
+               
+            </div>
+        </article>
+
+         <article class="blog-post">
+            <div class="post-thumbnail">
+                <img src="assets/blog_2.jpg" alt="Blog post thumbnail">
+            </div>
+            <div class="post-content">
+                <div class="post-meta">
+                    <span class="post-category">Bloger</span>
+                </div>
+                <p class="post-excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Ipsam, quos quis quasi ut impedit reiciendis voluptatem
+rem esse ratione omnis, laudantium earum. Aperiam
+nesciunt dolore aliquam repellat consequatur amet
+ducimus.</p>
+              
+            </div>
+        </article>
+          <article class="blog-post">
+            <div class="post-thumbnail">
+                <img src="assets/blog_3.jpg" alt="Blog post thumbnail">
+            </div>
+            <div class="post-content">
+                <div class="post-meta">
+                    <span class="post-category">Bloger</span>
+                </div>
+                
+                <p class="post-excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Ipsam, quos quis quasi ut impedit reiciendis voluptatem
+rem esse ratione omnis, laudantium earum. Aperiam
+nesciunt dolore aliquam repellat consequatur amet
+ducimus.</p>
+            
+            </div>
+        </article>
+         </div>
+</section>
+
+ <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-column logo-column">
+      <img src="assets/logo.png" alt="Logo" class="footer-logo" />
+      <p>dolore
+
+eveniet
+
+Lorem, ipsum dolor sit amet
+consectetur adipisicing elit. Est
+quaerat ipsa aspernatur ad sequi,
+vitae quasi.
+Excepturi ipsa odio impedit sequi
+at hic velit, minus vero sint.
+Voluptas?
+</p>
+    </div>
+
+   <div class="footer-column">
+      <h3>Quick Link</h3>
+      <ul>
+        <li><a href="#titleHome">Home</a></li>
+        <li><a href="#aboutTitle">About</a></li>
+        <li><a href="#featuredTitle">Featured</a></li>
+        <li><a href="#sectionFiveArrivals">Arrivals</a></li>
+        <li><a href="#reviewstitle">Reviews</a></li>
+        <li><a href="#blogtitle">Blog</a></li>
+      </ul>
+    </div>
+     <div class="footer-column">
+      <h3>Contact Info</h3>
+      <p><i class="fa fa-phone"></i> +94 12 345 6789</p>
+      <p><i class="fa fa-phone"></i> +94 32 444 699</p>
+      <p><i class="fa fa-envelope"></i> bookstore123@gmail.com</p>
+    </div>
+    
+      <div class="footer-column">
+    <h3>Follow Us</h3>
+    <div class="social-icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-linkedin-in"></i>
+    </div>
+  </div>
+
+    <div class="footer-column">
+      <h3>Newsletter</h3>
+      <input type="email" placeholder="You email id here" />
+      <button>Subscribe</button>
+    </div>
+  </div>
+ <div class="footer-bottom">
+    <p>Design By <span class="highlight">WT Master Code</span></p>
+  </div>
+  
+</footer>
+   
+
+    
 </body>
 </html>
