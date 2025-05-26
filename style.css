@@ -540,6 +540,17 @@ ul{
   display: flex;
   justify-content: center;
 }
+
+.digital-book-content button {
+  padding: 16px 32px;
+  font-size: 1rem;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 150px;
+  margin-right: 800px;
+}
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column;
