@@ -529,6 +529,17 @@ ul{
   color: #009688;
   font-size: 1rem;
 }
+
+.digital-book-section {
+  background-image: url('./assets/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 80px 30px;
+  display: flex;
+  justify-content: center;
+}
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column;
